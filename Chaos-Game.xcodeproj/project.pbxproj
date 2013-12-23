@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACAE89CE1868689D0057A362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE89CD1868689D0057A362 /* Foundation.framework */; };
+		ACAE89D01868689D0057A362 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE89CF1868689D0057A362 /* CoreGraphics.framework */; };
+		ACAE89D21868689D0057A362 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE89D11868689D0057A362 /* UIKit.framework */; };
+		ACAE89D81868689D0057A362 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACAE89D61868689D0057A362 /* InfoPlist.strings */; };
+		ACAE89DA1868689D0057A362 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAE89D91868689D0057A362 /* main.m */; };
+		ACAE89DE1868689D0057A362 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAE89DD1868689D0057A362 /* AppDelegate.m */; };
+		ACAE89E01868689D0057A362 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAE89DF1868689D0057A362 /* Images.xcassets */; };
+		ACAE89E71868689D0057A362 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE89E61868689D0057A362 /* XCTest.framework */; };
+		ACAE89E81868689D0057A362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE89CD1868689D0057A362 /* Foundation.framework */; };
+		ACAE89E91868689E0057A362 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE89D11868689D0057A362 /* UIKit.framework */; };
+		ACAE89F11868689E0057A362 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACAE89EF1868689E0057A362 /* InfoPlist.strings */; };
+		ACAE89F31868689E0057A362 /* Chaos_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAE89F21868689E0057A362 /* Chaos_GameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACAE89EA1868689E0057A362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACAE89C21868689D0057A362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAE89C91868689D0057A362;
+			remoteInfo = "Chaos-Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACAE89CA1868689D0057A362 /* Chaos-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chaos-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAE89CD1868689D0057A362 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACAE89CF1868689D0057A362 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACAE89D11868689D0057A362 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACAE89D51868689D0057A362 /* Chaos-Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chaos-Game-Info.plist"; sourceTree = "<group>"; };
+		ACAE89D71868689D0057A362 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACAE89D91868689D0057A362 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACAE89DB1868689D0057A362 /* Chaos-Game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chaos-Game-Prefix.pch"; sourceTree = "<group>"; };
+		ACAE89DC1868689D0057A362 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACAE89DD1868689D0057A362 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACAE89DF1868689D0057A362 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACAE89E51868689D0057A362 /* Chaos-GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chaos-GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAE89E61868689D0057A362 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ACAE89EE1868689E0057A362 /* Chaos-GameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chaos-GameTests-Info.plist"; sourceTree = "<group>"; };
+		ACAE89F01868689E0057A362 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACAE89F21868689E0057A362 /* Chaos_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chaos_GameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACAE89C71868689D0057A362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAE89D01868689D0057A362 /* CoreGraphics.framework in Frameworks */,
+				ACAE89D21868689D0057A362 /* UIKit.framework in Frameworks */,
+				ACAE89CE1868689D0057A362 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAE89E21868689D0057A362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAE89E71868689D0057A362 /* XCTest.framework in Frameworks */,
+				ACAE89E91868689E0057A362 /* UIKit.framework in Frameworks */,
+				ACAE89E81868689D0057A362 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACAE89C11868689D0057A362 = {
+			isa = PBXGroup;
+			children = (
+				ACAE89D31868689D0057A362 /* Chaos-Game */,
+				ACAE89EC1868689E0057A362 /* Chaos-GameTests */,
+				ACAE89CC1868689D0057A362 /* Frameworks */,
+				ACAE89CB1868689D0057A362 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAE89CB1868689D0057A362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACAE89CA1868689D0057A362 /* Chaos-Game.app */,
+				ACAE89E51868689D0057A362 /* Chaos-GameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAE89CC1868689D0057A362 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACAE89CD1868689D0057A362 /* Foundation.framework */,
+				ACAE89CF1868689D0057A362 /* CoreGraphics.framework */,
+				ACAE89D11868689D0057A362 /* UIKit.framework */,
+				ACAE89E61868689D0057A362 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACAE89D31868689D0057A362 /* Chaos-Game */ = {
+			isa = PBXGroup;
+			children = (
+				ACAE89DC1868689D0057A362 /* AppDelegate.h */,
+				ACAE89DD1868689D0057A362 /* AppDelegate.m */,
+				ACAE89DF1868689D0057A362 /* Images.xcassets */,
+				ACAE89D41868689D0057A362 /* Supporting Files */,
+			);
+			path = "Chaos-Game";
+			sourceTree = "<group>";
+		};
+		ACAE89D41868689D0057A362 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACAE89D51868689D0057A362 /* Chaos-Game-Info.plist */,
+				ACAE89D61868689D0057A362 /* InfoPlist.strings */,
+				ACAE89D91868689D0057A362 /* main.m */,
+				ACAE89DB1868689D0057A362 /* Chaos-Game-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACAE89EC1868689E0057A362 /* Chaos-GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACAE89F21868689E0057A362 /* Chaos_GameTests.m */,
+				ACAE89ED1868689E0057A362 /* Supporting Files */,
+			);
+			path = "Chaos-GameTests";
+			sourceTree = "<group>";
+		};
+		ACAE89ED1868689E0057A362 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACAE89EE1868689E0057A362 /* Chaos-GameTests-Info.plist */,
+				ACAE89EF1868689E0057A362 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACAE89C91868689D0057A362 /* Chaos-Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAE89F61868689E0057A362 /* Build configuration list for PBXNativeTarget "Chaos-Game" */;
+			buildPhases = (
+				ACAE89C61868689D0057A362 /* Sources */,
+				ACAE89C71868689D0057A362 /* Frameworks */,
+				ACAE89C81868689D0057A362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chaos-Game";
+			productName = "Chaos-Game";
+			productReference = ACAE89CA1868689D0057A362 /* Chaos-Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACAE89E41868689D0057A362 /* Chaos-GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAE89F91868689E0057A362 /* Build configuration list for PBXNativeTarget "Chaos-GameTests" */;
+			buildPhases = (
+				ACAE89E11868689D0057A362 /* Sources */,
+				ACAE89E21868689D0057A362 /* Frameworks */,
+				ACAE89E31868689D0057A362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAE89EB1868689E0057A362 /* PBXTargetDependency */,
+			);
+			name = "Chaos-GameTests";
+			productName = "Chaos-GameTests";
+			productReference = ACAE89E51868689D0057A362 /* Chaos-GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACAE89C21868689D0057A362 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Ultrasoft;
+				TargetAttributes = {
+					ACAE89E41868689D0057A362 = {
+						TestTargetID = ACAE89C91868689D0057A362;
+					};
+				};
+			};
+			buildConfigurationList = ACAE89C51868689D0057A362 /* Build configuration list for PBXProject "Chaos-Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACAE89C11868689D0057A362;
+			productRefGroup = ACAE89CB1868689D0057A362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACAE89C91868689D0057A362 /* Chaos-Game */,
+				ACAE89E41868689D0057A362 /* Chaos-GameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACAE89C81868689D0057A362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAE89D81868689D0057A362 /* InfoPlist.strings in Resources */,
+				ACAE89E01868689D0057A362 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAE89E31868689D0057A362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAE89F11868689E0057A362 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACAE89C61868689D0057A362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAE89DE1868689D0057A362 /* AppDelegate.m in Sources */,
+				ACAE89DA1868689D0057A362 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAE89E11868689D0057A362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAE89F31868689E0057A362 /* Chaos_GameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACAE89EB1868689E0057A362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACAE89C91868689D0057A362 /* Chaos-Game */;
+			targetProxy = ACAE89EA1868689E0057A362 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACAE89D61868689D0057A362 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAE89D71868689D0057A362 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACAE89EF1868689E0057A362 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAE89F01868689E0057A362 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACAE89F41868689E0057A362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACAE89F51868689E0057A362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACAE89F71868689E0057A362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chaos-Game/Chaos-Game-Prefix.pch";
+				INFOPLIST_FILE = "Chaos-Game/Chaos-Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACAE89F81868689E0057A362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chaos-Game/Chaos-Game-Prefix.pch";
+				INFOPLIST_FILE = "Chaos-Game/Chaos-Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ACAE89FA1868689E0057A362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chaos-Game.app/Chaos-Game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chaos-Game/Chaos-Game-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Chaos-GameTests/Chaos-GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ACAE89FB1868689E0057A362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chaos-Game.app/Chaos-Game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chaos-Game/Chaos-Game-Prefix.pch";
+				INFOPLIST_FILE = "Chaos-GameTests/Chaos-GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACAE89C51868689D0057A362 /* Build configuration list for PBXProject "Chaos-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAE89F41868689E0057A362 /* Debug */,
+				ACAE89F51868689E0057A362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAE89F61868689E0057A362 /* Build configuration list for PBXNativeTarget "Chaos-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAE89F71868689E0057A362 /* Debug */,
+				ACAE89F81868689E0057A362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACAE89F91868689E0057A362 /* Build configuration list for PBXNativeTarget "Chaos-GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAE89FA1868689E0057A362 /* Debug */,
+				ACAE89FB1868689E0057A362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACAE89C21868689D0057A362 /* Project object */;
+}
