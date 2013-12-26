@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC39AE29186BD6CA006AA6D8 /* ChaosCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39AE28186BD6CA006AA6D8 /* ChaosCanvas.m */; };
 		ACAE89CE1868689D0057A362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE89CD1868689D0057A362 /* Foundation.framework */; };
 		ACAE89D01868689D0057A362 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE89CF1868689D0057A362 /* CoreGraphics.framework */; };
 		ACAE89D21868689D0057A362 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE89D11868689D0057A362 /* UIKit.framework */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC39AE27186BD6CA006AA6D8 /* ChaosCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaosCanvas.h; sourceTree = "<group>"; };
+		AC39AE28186BD6CA006AA6D8 /* ChaosCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaosCanvas.m; sourceTree = "<group>"; };
 		ACAE89CA1868689D0057A362 /* Chaos-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chaos-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAE89CD1868689D0057A362 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACAE89CF1868689D0057A362 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC39AE23186BD200006AA6D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC39AE27186BD6CA006AA6D8 /* ChaosCanvas.h */,
+				AC39AE28186BD6CA006AA6D8 /* ChaosCanvas.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		ACAE89C11868689D0057A362 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +119,7 @@
 		ACAE89D31868689D0057A362 /* Chaos-Game */ = {
 			isa = PBXGroup;
 			children = (
+				AC39AE23186BD200006AA6D8 /* Views */,
 				ACAE89DC1868689D0057A362 /* AppDelegate.h */,
 				ACAE89DD1868689D0057A362 /* AppDelegate.m */,
 				ACAE89DF1868689D0057A362 /* Images.xcassets */,
@@ -239,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC39AE29186BD6CA006AA6D8 /* ChaosCanvas.m in Sources */,
 				ACAE89DE1868689D0057A362 /* AppDelegate.m in Sources */,
 				ACAE89DA1868689D0057A362 /* main.m in Sources */,
 			);
@@ -443,6 +457,7 @@
 				ACAE89F81868689E0057A362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACAE89F91868689E0057A362 /* Build configuration list for PBXNativeTarget "Chaos-GameTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +466,7 @@
 				ACAE89FB1868689E0057A362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
