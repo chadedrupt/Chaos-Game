@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC39AE29186BD6CA006AA6D8 /* ChaosCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39AE28186BD6CA006AA6D8 /* ChaosCanvas.m */; };
+		AC99849C18EA3DEC00C252D9 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC99849B18EA3DEC00C252D9 /* Storyboard.storyboard */; };
 		ACAE89CE1868689D0057A362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE89CD1868689D0057A362 /* Foundation.framework */; };
 		ACAE89D01868689D0057A362 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE89CF1868689D0057A362 /* CoreGraphics.framework */; };
 		ACAE89D21868689D0057A362 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE89D11868689D0057A362 /* UIKit.framework */; };
@@ -20,6 +21,7 @@
 		ACAE89E91868689E0057A362 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE89D11868689D0057A362 /* UIKit.framework */; };
 		ACAE89F11868689E0057A362 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACAE89EF1868689E0057A362 /* InfoPlist.strings */; };
 		ACAE89F31868689E0057A362 /* Chaos_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAE89F21868689E0057A362 /* Chaos_GameTests.m */; };
+		ACD1E9661907ABF900BA0B23 /* ChaosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD1E9651907ABF900BA0B23 /* ChaosViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* Begin PBXFileReference section */
 		AC39AE27186BD6CA006AA6D8 /* ChaosCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaosCanvas.h; sourceTree = "<group>"; };
 		AC39AE28186BD6CA006AA6D8 /* ChaosCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaosCanvas.m; sourceTree = "<group>"; };
+		AC99849B18EA3DEC00C252D9 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		ACAE89CA1868689D0057A362 /* Chaos-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chaos-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAE89CD1868689D0057A362 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACAE89CF1868689D0057A362 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,6 +54,8 @@
 		ACAE89EE1868689E0057A362 /* Chaos-GameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chaos-GameTests-Info.plist"; sourceTree = "<group>"; };
 		ACAE89F01868689E0057A362 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACAE89F21868689E0057A362 /* Chaos_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chaos_GameTests.m; sourceTree = "<group>"; };
+		ACD1E9641907ABF900BA0B23 /* ChaosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaosViewController.h; sourceTree = "<group>"; };
+		ACD1E9651907ABF900BA0B23 /* ChaosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaosViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,9 @@
 			children = (
 				AC39AE27186BD6CA006AA6D8 /* ChaosCanvas.h */,
 				AC39AE28186BD6CA006AA6D8 /* ChaosCanvas.m */,
+				ACD1E9641907ABF900BA0B23 /* ChaosViewController.h */,
+				ACD1E9651907ABF900BA0B23 /* ChaosViewController.m */,
+				AC99849B18EA3DEC00C252D9 /* Storyboard.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -234,6 +242,7 @@
 			files = (
 				ACAE89D81868689D0057A362 /* InfoPlist.strings in Resources */,
 				ACAE89E01868689D0057A362 /* Images.xcassets in Resources */,
+				AC99849C18EA3DEC00C252D9 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC39AE29186BD6CA006AA6D8 /* ChaosCanvas.m in Sources */,
+				ACD1E9661907ABF900BA0B23 /* ChaosViewController.m in Sources */,
 				ACAE89DE1868689D0057A362 /* AppDelegate.m in Sources */,
 				ACAE89DA1868689D0057A362 /* main.m in Sources */,
 			);
