@@ -56,7 +56,7 @@
     CGFloat height = CGRectGetHeight(self.bounds);
     
     CGFloat smallSpan = fmin(width, height);
-    CGFloat largeSpan = sqrt(pow(smallSpan, 2) - pow(smallSpan / 2, 2)); //pythagus therum
+    CGFloat largeSpan = sqrt(pow(smallSpan, 2) - pow(smallSpan / 2, 2)); //pythagoras theorem
     
     CGFloat xPadding = width < height ? width - smallSpan : width - largeSpan;
     CGFloat yPadding = width < height ? height - largeSpan : height - smallSpan;
