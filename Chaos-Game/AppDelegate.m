@@ -7,11 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "ChaosViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:NO];
+
     return YES;
 }
 
